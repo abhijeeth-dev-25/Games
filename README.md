@@ -2,7 +2,7 @@
   <h1>🐍 Classic Snake Game</h1>
   <p>A modern, aesthetically pleasing recreation of the classic Snake Arcade Game built with Vanilla HTML, CSS, and JavaScript.</p>
 
-  <img src="images/start-menu.png" alt="Start Menu" width="800"/>
+  <img src="./images/start-menu.png" alt="Start Menu" width="800"/>
 </div>
 
 <br>
@@ -26,7 +26,7 @@ This project is a fully functional, browser-based implementation of the retro Sn
 
 | Gameplay | Paused State | Game Over |
 |:---:|:---:|:---:|
-| <img src="images/gameplay.png" alt="Active Gameplay" width="250"/> | <img src="images/paused.png" alt="Paused State" width="250"/> | <img src="images/game-over.png" alt="Game Over Modal" width="250"/> |
+| <img src="./images/gameplay.png" alt="Active Gameplay" width="250"/> | <img src="./images/paused.png" alt="Paused State" width="250"/> | <img src="./images/game-over.png" alt="Game Over Modal" width="250"/> |
 
 <br>
 
