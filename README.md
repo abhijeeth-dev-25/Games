@@ -1,11 +1,11 @@
 <div align="center">
   <h1>🐍 Classic Snake Game</h1>
   <p>A modern, aesthetically pleasing recreation of the classic Snake Arcade Game built with Vanilla HTML, CSS, and JavaScript.</p>
+
+  <img src="./images/start-menu.png" alt="Start Menu" width="800"/>
 </div>
+
 <br>
-
-![Start Menu](./images/start-menu.png)
-
 
 ## 🎮 About The Project
 
