@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="infos">
+                <div class="info">
+                    <h3>High Score:
+                        <span id="high-score">0</span>
+                    </h3>
+                </div>
+                <div class="info">
+                    <h3>Score:
+                        <span id="score">0</span>
+                    </h3>
+                </div>
+                <div class="info">
+                    <h3>Time:
+                        <span id="time">00:00</span>
+                    </h3>
+                </div>
+                <div class="info">
+                    <button id="pause-btn" class="control-btn">Pause</button>
+                </div>
+            </div>
+            <div class="board">
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Start Menu Modal -->
+    <div id="start-menu-modal" class="modal">
+        <div class="modal-content">
+            <h2>Snake Game</h2>
+            <div class="modal-scores menu-options">
+                <label for="start-speed-select">Select Speed:</label>
+                <select id="start-speed-select" class="speed-select-large">
+                    <option value="250">Slow</option>
+                    <option value="150" selected>Normal</option>
+                    <option value="75">Fast</option>
+                    <option value="40">Insane</option>
+                </select>
+            </div>
+            <button id="start-btn" class="primary-btn">Start Game</button>
+            <p class="controls-hint">Use Arrow Keys to move.<br>Press Spacebar to pause/resume.</p>
+        </div>
+    </div>
+
+    <!-- Pause Overlay -->
+    <div id="pause-overlay" class="modal hidden">
+        <div class="modal-content transparent-modal">
+            <h2 class="pause-text">PAUSED</h2>
+            <p>Press Spacebar or Resume button to continue</p>
+            <button id="resume-btn" class="primary-btn mt-16">Resume</button>
+        </div>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="game-over-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Game Over!</h2>
+            <div class="modal-scores">
+                <p>Score: <span id="final-score">0</span></p>
+                <p>High Score: <span id="final-high-score">0</span></p>
+            </div>
+            <button id="restart-btn">Restart Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
