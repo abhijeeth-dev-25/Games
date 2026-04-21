@@ -70,4 +70,4 @@ Since this is a vanilla web project, no build tools or package managers (`npm`) 
 4. **Don't Bite Yourself:** If the snake's head collides with any part of its own body, it's Game Over.
 
 ---
-
+*Created as a fun personal project to practice DOM manipulation and CSS design.*
